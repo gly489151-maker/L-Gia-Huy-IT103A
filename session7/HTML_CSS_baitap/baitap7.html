@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Biểu mẫu Feedback</title>
+  <style>
+    body {
+  background: #f2f6f5;
+  font-family: Arial, sans-serif;
+}
+
+
+.form-box {
+  width: 400px;
+  background: #fff;
+  margin: 40px auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+
+.form-box h1 {
+  text-align: center;
+  color: #0a7f75;
+  margin-bottom: 20px;
+}
+
+
+form label {
+  display: block;
+  margin: 12px 0 5px;
+  font-weight: bold;
+  color: #0a7f75;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #8faadc;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+}
+
+
+form input:focus,
+form select:focus,
+form textarea:focus {
+  border-color: #0aa89e;
+}
+
+
+form button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background: #0aa89e;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #088f86;
+}
+
+  </style>
+</head>
+<body>
+
+<div class="form-box">
+  <h1>Biểu Mẫu Feedback Phòng<br>Khám Nha Khoa</h1>
+
+  <form>
+    <label>Họ và tên</label>
+    <input type="text" placeholder="Nhập họ tên">
+
+    <label>Email</label>
+    <input type="email" placeholder="example@gmail.com">
+
+    <label>Dịch vụ đã sử dụng</label>
+    <select>
+      <option>Khám răng tổng quát</option>
+      <option>Niềng răng</option>
+      <option>Tẩy trắng răng</option>
+      <option>Cấy ghép Implant</option>
+    </select>
+
+    <label>Mức độ hài lòng</label>
+    <select>
+      <option>Rất hài lòng</option>
+      <option>Hài lòng</option>
+      <option>Bình thường</option>
+      <option>Không hài lòng</option>
+    </select>
+
+    <label>Nội dung phản hồi</label>
+    <textarea rows="4" placeholder="Hãy cho chúng tôi biết cảm nhận của bạn..."></textarea>
+
+    <button type="submit">Gửi feedback</button>
+  </form>
+</div>
+
+</body>
+</html>
